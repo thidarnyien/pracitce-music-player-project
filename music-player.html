@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cd7772a80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="music-player.css">
+    <link rel="shortcut icon" href="./music/logo.png" type="image/x-icon">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+       <div class="playlists-container"></div>
+        <audio class="audioTag" src="">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="currentAndTotalTime">00:00 / 00:00</div>
+        <div id="progressBar">
+            <div id="currentProgress"></div>
+        </div>
+       <div class="musicPlayer">
+        <i class="fa-solid fa-backward-step controls previousBtn"></i>
+        <i class="fa-solid fa-circle-play controls playBtn"></i>
+        <i class="fa-solid fa-circle-pause controls pauseBtn"></i>
+        <i class="fa-solid fa-forward-step controls nextBtn"></i>
+       </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+</html>

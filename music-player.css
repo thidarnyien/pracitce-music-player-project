@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(103, 105, 105);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.trackItem{
+    color: rgb(252, 248, 5);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(228, 216, 216);
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 20px;
+}
+.musicPlayer{
+    display: flex;
+    flex-direction: row;
+}
+#progressBar{
+    width: 500px;
+    height: 3px;
+    background-color: rgb(193, 185, 185);
+    cursor: pointer;
+}
+#currentProgress{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(231, 242, 84);
+}
+.controls{
+    font-size: 30px;
+    color: rgb(235, 229, 229);
+    cursor: pointer;
+    margin: 20px 40px;
+}
+.pauseBtn{
+    display: none;
+}
+.currentAndTotalTime{
+    color: white;
+    margin-bottom: 5px;
+}
